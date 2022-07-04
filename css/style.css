@@ -4,6 +4,17 @@
   box-sizing: border-box;
   background-color: antiquewhite; }
 
+.card p {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px; }
+
+.mono p {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+  margin: 10px; }
+
 #galeria .col-lg-4 {
   margin: 0 !important;
   padding: 25px; }
@@ -19,8 +30,45 @@ a:hover {
   color: grey;
   text-decoration: none; }
 
+.header {
+  /*propiedades del estilo */
+  background-color: bisque;
+  color: black; }
+  .header__link {
+    text-align: center; }
+    .header__link--light {
+      color: orange; }
+
+.card {
+  background-color: burlywood;
+  margin: 1rem;
+  border-radius: 15px;
+  width: 100vw;
+  padding: 2rem; }
+  .cardhover {
+    background-color: #e9d0af; }
+  .card button {
+    padding: 1rem;
+    background-color: blue; }
+
+@media (max-width: 650px) {
+  .card {
+    width: 50vw;
+    margin: 0 auto; } }
+
 footer {
   background-color: grey; }
+
+.mono {
+  border: 2px; }
+
+.bordel p {
+  padding: 1rem;
+  background-color: black, white; }
+
+.segundo p {
+  background-color: black;
+  color: grey; }
 
 main {
   display: flex;

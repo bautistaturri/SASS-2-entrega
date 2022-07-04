@@ -2,3 +2,41 @@ a:hover{
     color: grey;
     text-decoration: none;
 }
+.header{
+    /*propiedades del estilo */
+    background-color: bisque;
+    color: black;
+    &__link{
+        text-align: center;
+        &--light{
+            color: orange;
+        }
+    }
+}
+
+.card{
+    background-color: burlywood;
+    margin: 1rem;
+    border-radius: 15px;
+    width: $ancho;
+    padding: 2rem;
+    &hover{
+        background-color: lighten($color: burlywood, $amount: 10);
+    }
+    p{
+        @extend %estiloparrafo;
+    }
+    button{
+        @include btn; 
+    }
+    
+    
+}
+@media (max-width:650px){
+    .card{
+        width: $ancho/2;
+        margin: 0 auto;
+    }
+}
+
+

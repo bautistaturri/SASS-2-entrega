@@ -1,0 +1,14 @@
+@mixin btn {
+    padding: 1rem;
+    background-color: blue;
+    
+}
+@mixin prueba($colorfondo,$colorletra){
+    padding: 1rem;
+    background-color: $colorfondo,$colorletra;
+}
+@mixin prueba2($primercolor,$segundocolor) {
+    background-color: $primercolor;
+    color: $segundocolor;
+    
+}

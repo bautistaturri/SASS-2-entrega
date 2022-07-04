@@ -1,0 +1,12 @@
+.mono{
+    border: 2px;
+    
+    p{
+        @extend %estilos;
+    }
+}
+.bordel{
+    p{
+        @include prueba(black,white);
+    }
+}

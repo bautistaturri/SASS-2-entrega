@@ -2,12 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: antiquewhite
+    background-color: antiquewhite;
 }
+//variables
+@import './variables/mixins';
+@import './variables/tamanios';
+@import './variables/extend';
 
 @import './secciones/fotos';
 @import './secciones/index';
 @import './secciones/footer';
+@import './secciones/about';
+@import './secciones/contact';
+
+
 
 main{
     display: flex;
